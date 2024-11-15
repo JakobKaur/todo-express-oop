@@ -11,5 +11,5 @@ app.use(express.urlencoded({extended: true}))
 app.use("/todos", todoRoutes)
 
 app.listen(5000, () => {
-    console.log("server is connected at port 5000")
+    console.log("server is connected at port http://localhost:5000")
 })
